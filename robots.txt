@@ -1,0 +1,29 @@
+# JOSEPHINE: open to search engines and AI search tools; the client room and admin stay private
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /vault/
+
+User-agent: GPTBot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /vault/
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /vault/
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://wearejosephine.com/sitemap.xml
